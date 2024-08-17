@@ -25,7 +25,7 @@ import java.util.Locale;
 
 public enum Languages {
 	ENGLISH("english",      "",   Status._COMPLETE_, null, null),
-	CHINESE("中文",          "zh", Status.UNREVIEWED, new String[]{"Chronie_Lynn_Iwa", "Jinkeloid(zdx00793)", "endlesssolitude"}, new String[]{"931451545", "Budding", "Fatir", "Fishbone", "Hcat", "HoofBumpBlurryface", "Horr_lski", "Lery", "Lyn_0401", "Lyx0527", "Ooooscar", "RainSlide", "ShatteredFlameBlast", "SpaceAnchor", "SunsetGlowTheDOGE", "Teller", "hmdzl001", "leo", "tempest102", "户方狸奴"}),
+	CHINESE("中文",          "zh", Status.UNREVIEWED, new String[]{"Chronie_Lynn_Iwa", "Jinkeloid(zdx00793)", "endlesssolitude"}, new String[]{"931451545", "Budding", "Fatir", "Fishbone", "Hcat", "HoofBumpBlurryface", "Horr_lski", "Lery", "Lyn_0401", "Lyx0527", "Ooooscar", "RainSlide", "ShatteredFlameBlast", "SpaceAnchor", "SunsetGlowTheDOGE", "Teller", "hmdzl001", "leo", "tempest102", "户方狸奴和梓乔"}),
 	KOREAN("한국어",         "ko", Status.UNREVIEWED, new String[]{"Cocoa", "Flameblast12", "GameConqueror", "Korean2017"}, new String[]{"AFS", "N8fall", "WondarRabb1t", "chlrhwnstkd", "ddojin0115", "eeeei", "enjuxx", "hancyel", "linterpreteur", "lemonam", "lsiebnie", "sora0430"}),
 	RUSSIAN("русский",      "ru", Status._COMPLETE_, new String[]{"AprilRain(Vadzim Navumaû)", "ConsideredHamster", "Dominowood371", "Inevielle", "apxwn", "yarikonline"}, new String[]{"AttHawk46", "BlueberryShortcake", "CatGirlSasha", "Enwviun", "HerrGotlieb", "HoloTheWise", "Ilbko", "JleHuBbluKoT", "KirStaLong", "MrXantar", "Nikets", "Originalej0name", "Raymundo", "Shamahan", "Thomasg63", "XAutumn", "Ya6lo4ko", "dasfan123", "ifritdiezel", "kirusyaga", "long_live_the_9", "pancreper1", "perefrazz", "roman.yagodin", "tibby", "un_logic", "vivatimperia", "Вoвa"}),
 	SPANISH("español",      "es", Status._COMPLETE_, new String[]{"KeyKai", "Kiroto", "Kohru", "airman12", "grayscales"}, new String[]{"2001sergiobr", "AdventurerKilly", "Alesxanderk", "Bryan092", "CorvosUtopy", "D0n.Kak0", "Dewstend", "Dyrran", "Enddox", "Fervoreking", "Illyatwo2", "Fuwn", "JPCHZ", "LastCry", "Marquezo_577_284", "NAVI1237", "STKmonoqui", "Sh4rkill3r", "alfongad", "anauta", "benzarr410", "chepe567.jc", "ctrijueque", "damc0616", "desen90", "dhg121", "javifs", "jonismack1", "magmax", "rechebeltran", "tres.14159"}),
@@ -42,13 +42,18 @@ public enum Languages {
 	DUTCH("nederlands",     "nl", Status.UNREVIEWED, new String[]{"AlbertBrand", "Mvharen"}, new String[]{"AvanLieshout", "Blokheck011", "Frankwert", "Gehenna", "Valco", "ZephyrZodiac", "link200023", "rmw", "th3f4llenh0rr0r"}),
 	VIETNAMESE("tiếng việt","vi", Status.UNREVIEWED, new String[]{"Chuseko", "The_Hood", "nguyenanhkhoapythus"}, new String[]{"BlueSheepAlgodoo", "Phuc2401", "Teh_boi", "Threyja", "Toluu", "bruhwut", "buicongminh_t63", "deadlevel13", "h4ndy_c4ndy", "hniV", "khangxyz3g", "ngolamaz3", "nkhhu", "vdgiapp", "vtvinh24"}),
 	HUNGARIAN("magyar",     "hu", Status.UNREVIEWED, new String[]{"dorheim", "szalaik"}, new String[]{"Csanevox", "Navetelen", "acszoltan111", "clarovani", "dhialub", "nanometer", "nardomaa", "savarall", "summoner001", "szemetvodor"}),
-	//FINNISH("suomi", 		"fi", Status.UNFINISHED, new String[]{"TenguKnight"}, new String[]{"Allugaattori10", "Dakkus", "Jaskas123", "MailBoxGod", "Oftox", "Sautari", "Tikkari"} ),
+//
+	FINNISH("suomi", 		"fi", Status.UNFINISHED, new String[]{"TenguKnight"}, new String[]{"Allugaattori10", "Dakkus", "Jaskas123", "MailBoxGod", "Oftox", "Sautari", "Tikkari"} ),
 	GREEK("ελληνικά",       "el", Status._COMPLETE_, new String[]{"Aeonius", "Saxy"}, new String[]{"DU_Clouds", "VasKyr", "YiorgosH", "fr3sh", "stefboi", "toumbo", "val.exe"}),
 	BELARUSIAN("беларуская","be", Status.UNREVIEWED, new String[]{"AprilRain(Vadzim Navumaû)"}, new String[]{"4ebotar"});
-	//CATALAN("català",     "ca", Status.UNFINISHED, new String[]{"Illyatwo2"}, new String[]{"Elosy", "n1ngu"})
-	//GALICIAN("galego",    "gl", Status.UNFINISHED, new String[]{"xecarballido"}, null),
-	//BASQUE("euskara",     "eu", Status.UNFINISHED, new String[]{"Deathrevenge", "Osoitz"}, null),
-	//ESPERANTO("esperanto","eo", Status.UNFINISHED, new String[]{"Verdulo"}, new String[]{"Raizin"});
+	//
+	CATALAN("català",     "ca", Status.UNFINISHED, new String[]{"Illyatwo2"}, new String[]{"Elosy", "n1ngu"})
+	//
+	GALICIAN("galego",    "gl", Status.UNFINISHED, new String[]{"xecarballido"}, null),
+	//
+	BASQUE("euskara",     "eu", Status.UNFINISHED, new String[]{"Deathrevenge", "Osoitz"}, null),
+	//
+	ESPERANTO("esperanto","eo", Status.UNFINISHED, new String[]{"Verdulo"}, new String[]{"Raizin"});
 
 	public enum Status{
 		//below 80% translated languages are not added or removed
