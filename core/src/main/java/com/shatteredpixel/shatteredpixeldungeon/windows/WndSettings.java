@@ -170,11 +170,11 @@ public class WndSettings extends WndTabbed {
 				if (value) last_index = 5;
 			}
 
-			@Override
+/*			@Override
 			protected void onClick() {
 				//do nothing
 			}
-
+*/
 			@Override
 			protected void createChildren() {
 				super.createChildren();
